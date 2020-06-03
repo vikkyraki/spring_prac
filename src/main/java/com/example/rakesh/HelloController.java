@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
     @RequestMapping("/name")
-    public String index(@RequestParam String name) {
+    public String secondIndex(@RequestParam String name) {
         return "Greetings from " + name;
     }
 

@@ -1,0 +1,45 @@
+ write at one place and we can use it anywhere
+  examples : logging, security, transaction, any frequently used code
+
+
+Cross Cutting Concerns, common things in a same Aspect
+
+Aspect Class -> Plain Java Class containing advices and Point Cuts
+
+Key Jargons in AOP :
+    Join point
+    Advice
+    Pointcut
+    Introduction
+    Target Object
+    Aspect
+    Interceptor
+    AOP Proxy
+    Weaving
+
+Main Jargons :
+
+1. Joint Point :
+    Point in program where advice needs to be implemented i.e actual Place where helper functions are placed.
+
+2. Advice :
+
+    helper functions i.e actual action to be taken
+
+    Before, the helper function is called before our main function.
+    After, the helper function is called after our main function.
+    Around, both entry and exit times.
+    After Returning, successfully.
+    After throwing, method exits by throwing exception.
+
+3. PointCut :
+    When or where we need to call .
+
+    ex : @execution(method A)
+    helper should be called when A method is called
+
+    Methods are described using an pattern
+
+    experession lang of Aop matches Joint Point
+
+
