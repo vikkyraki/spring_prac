@@ -1,0 +1,60 @@
+Testing .....
+    ->   Not Manual QA...
+
+Chef
+    -> Cook a Dish
+        -> Salt , Testing that there is more salt in it
+        -> More water, so that water level is right..? wrong approach, it breaks other things
+
+Civil Engineering
+    -> Build Dam, no way to measure whether wall is erect until it is fully built..
+
+Functional Requirements :
+    Testing Frameworks
+
+Happy face Test (2 + 2 = 4 ) (Pin correct)
+Sad Face test, check when things are bad (2 + 2 != 5) (Pin wrong)
+Corner Case, (card of magnet broken..)
+Dependencies Case (atm server not responding ...)
+
+Always Assume, Unreliable data from api's
+
+Unit Testing -> Single Responsibility
+
+    Scaler Dashboard -> all modules -> only test case, if any error is there, we can't find error properly.
+    more tests -> more easily get error
+
+    on small modules.
+
+Code Coverage is given by Unit test.
+
+
+Integration Testing -> Multiple Modules, where unit tests are working fine, Module Integration tests are passing...
+
+Regression
+    Large Spring Application, Made changes through service...
+    Broke other things,when you are adding some things that you are not aware of....
+    Regression is done by running all the unit tests.
+
+Regression tests are performed whenever anything has been changed in the system in order to check that no new bugs have been introduced.
+This means you re-run your unit and intergration tests after all patches, upgrades, and bug fixes. Regression testing can be seen as a special case of combined unit test and integration test.
+
+
+Unit -> Add,Multiply,Subtract,Divide
+Integration
+Regression
+Stress/Load Testing -> checking it for 10,000 people at a time....
+
+
+I'll try to answer this in a generic fashion. Suppose you are trying to put together pieces of a puzzle. Here the individual pieces point to System Test, Complete Puzzle would be Integration Test, Handover to the client would be Acceptance Test and trying to insert a New Piece would be Regression Test.
+
+All Cases.....
+
+
+empty
+more min values
+not array
+invalid number
+index out bound
+null or not
+

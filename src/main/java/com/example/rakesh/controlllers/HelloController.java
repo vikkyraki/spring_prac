@@ -1,4 +1,4 @@
-package com.example.rakesh;
+package com.example.rakesh.controlllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

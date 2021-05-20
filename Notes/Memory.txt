@@ -1,0 +1,5 @@
+
+Memory Arrangement
+
+Stack
+Heap

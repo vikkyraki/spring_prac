@@ -1,0 +1,12 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<body>
+<h1>Registration form</h1>
+    <div>
+        <p>Hi</p>
+        <p th:text = "${user.firstName}"> Hi  firstName </p>
+        <p>You are successfully registered</p>
+    </div>
+
+<a th:href="@{/login.html}">login</a>
+</body>
+</html>

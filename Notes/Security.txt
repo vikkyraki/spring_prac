@@ -1,0 +1,43 @@
+
+Didn't encrypt or Weak encryption -> then data breaches can happen.
+can encrpyted password cant be decrypted.....
+
+we use salt .... to encrypt so that hacker gets the wrong answer whle decrypting....
+
+md5 -> always 1 to many ...
+
+there can be collissions also...
+
+abc -> xyz
+abcabc -> xyz
+
+probality of encrpytion colliding is very rear...
+even salts only changing....
+
+salts are stored in different table
+
+Rsa Tokens :
+    Absouletly not connected to the internet..
+    Unique code every 10s.
+
+    How does this work ?
+
+    token based 2FA
+
+    maharanaa pratap
+    time series function -> userId -> timeSeries ......hardcoded based on time -> offline auths.
+
+SSO -> login through 3rd party apis
+scaler -> google -> login -> auth -> scaler (userId, token)
+
+Authorization and Authentication
+
+Session :
+    stateless software
+    -> remembering the user.......  -> token stored in cookie
+    -> token is send in every request....
+    -> validate the user...
+
+
+    -> storing the token in cookie is not secure ...
+
